@@ -11,8 +11,8 @@ function volumeOfSphere() {
   const radius = parseInt(document.getElementById('radius').value)
 
  // process
-  const volume = 4/3 * Math.PI * radius ** 3
+ const volume = (4 / 3) * Math.PI * radius ** 3
 
  // output
-  document.getElementById('volume').innerHTML = 'The volume is ' + volume + ' cm³'
+  document.getElementById('volume').innerHTML = `The volume is: $ ${volume.toFixed(2)}` + ' cm³'
 }
